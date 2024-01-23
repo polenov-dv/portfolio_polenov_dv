@@ -1,0 +1,39 @@
+.content_main {
+	position: relative;
+	margin-left: 260px;
+
+	@media(max-width: 1200px) {
+		margin-left: 0;
+	}
+}
+
+.switcher_wrapper {
+	position: fixed;
+	right: -225px;
+	top: 35%;
+	transition: right .2s linear;
+	z-index: 5;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.switcher_active {
+	right: 0;
+}
+
+.arrow_up_wrapper {
+	position: fixed;
+	bottom: 10px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	z-index: 20;
+}
+
+.arrow_up {
+	cursor: pointer;
+	fill: var(--bg_arrow);
+
+	&:hover {
+		fill: var(--main-color);
+	}
+}

@@ -1,0 +1,1 @@
+export { ModalProject } from './ui/ModalProject';

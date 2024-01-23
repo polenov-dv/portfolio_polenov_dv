@@ -1,0 +1,31 @@
+.content {
+	height: 10px;
+	width: 100%;
+	background-color: var(--bg-progressbar);
+	border-radius: 50px;
+}
+
+.filler {
+	height: 100%;
+	border-radius: inherit;
+	text-align: right;
+	background-color: var(--main-color);
+}
+
+.label_bar {
+	padding: 5px;
+	color: var(--text-color);
+	font-weight: 600;
+}
+
+.desc_wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px;
+}
+
+.desc {
+	@media(max-width: 500px) {
+		font-size: 16px;
+	}
+}

@@ -1,0 +1,183 @@
+.info {
+	display: flex;
+	gap: 0 50px;
+
+	@media(max-width: 1000px) {
+		flex-direction: column;
+		align-items: center;
+		gap: 50px 0;
+	}
+}
+
+.content {
+	background-color: var(--bg-section-two);
+	padding: 50px 25px;
+	min-height: 100vh;
+}
+
+.address {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 12px 0;
+	padding-bottom: 40px;
+
+	@media(max-width: 1000px) {
+		align-items: center;
+	}
+}
+
+.form_wrapper {
+	width: 100%;
+	order: 2;
+
+	@media(max-width: 1000px) {
+		order: 1;
+	}
+}
+
+.contacts {
+	order: 1;
+
+	@media(max-width: 1000px) {
+		order: 2;
+	}
+}
+
+.address_title,
+.social_title {
+	color: var(--text-color);
+	text-transform: uppercase;
+	font-size: 24px;
+	padding-bottom: 15px;
+}
+
+.address_item {
+	color: var(--secondary-color);
+}
+
+.address_link {
+	display: flex;
+	align-items: center;
+	gap: 0 8px;
+
+	&:hover {
+		color: var(--main-color);
+	}
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+
+	@media(max-width: 1000px) {
+		align-items: center;
+	}
+}
+
+.social_list {
+	display: flex;
+	gap: 0 30px;
+}
+
+.social_item {
+	position: relative;
+	width: 25px;
+	height: 25px;
+
+	path {
+		fill: #ffffff;
+	}
+
+	&:hover {
+		path {
+			fill: var(--main-color);
+		}
+	}
+}
+
+.github {
+	path {
+		fill: #000000;
+	}
+}
+
+.form_content {
+	display: flex;
+	flex-direction: column;
+}
+
+.form_input_fieldset {
+	display: flex;
+	align-items: center;
+	gap: 0 30px;
+	padding-bottom: 30px;
+
+	@media(max-width: 600px) {
+		gap: 0 10px;
+	}
+
+	@media(max-width: 420px) {
+		flex-direction: column;
+		gap: 20px 0;
+	}
+}
+
+.form_input {
+	height: 50px;
+	width: 100%;
+	border-radius: 5px;
+	padding-left: 20px;
+	border: 1px solid #d0d0d0;
+
+	@media(max-width: 600px) {
+		padding-left: 5px;
+	}
+}
+
+.form_input::placeholder {
+	font-size: 18px;
+
+	@media(max-width: 600px) {
+		font-size: 14px;
+	}
+}
+
+.form_area {
+	height: 250px;
+	width: 100%;
+	padding-left: 20px;
+	margin-bottom: 40px;
+	border: 1px solid #ada6a8;
+	border-radius: 8px;
+	font-size: 18px;
+
+	@media(max-width: 600px) {
+		margin-bottom: 20px;
+	}
+}
+
+.btn_wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	padding: 10px 30px;
+	color: #ffffff;
+	background-color: var(--main-color);
+	transition: 0.3s linear;
+
+	&:hover {
+		opacity: 0.7;
+	}
+
+	@media(max-width: 900px) {
+		font-size: 20px;
+	}
+}
+
+.title_form {
+	font-size: 24px;
+	padding-bottom: 20px;
+}
