@@ -2,6 +2,7 @@ import { Description } from 'components/Description';
 import cls from './AboutMe.module.scss';
 import { useTranslation } from 'react-i18next';
 import Download from 'shared/assets/icon/download.svg';
+import resume from 'shared/file/resume_pdv.pdf';
 
 export const AboutMe = () => {
 
@@ -44,7 +45,7 @@ export const AboutMe = () => {
 							<span>{t('Локация')}: </span>{t('Pоссийcкая федерация')}
 						</li>
 					</ul>
-					<a href="/assets/file/resume_pdv.pdf" download="resume_pdv.pdf" className={cls.btn_wrapper}>
+					<a href={resume} download="resume_pdv.pdf" className={cls.btn_wrapper}>
 						<button className={cls.btn}>
 							{t('Скачать')} CV
 							<Download className={cls.download_icon} />

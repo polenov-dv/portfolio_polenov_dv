@@ -1,7 +1,7 @@
 import webpack from 'webpack';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import { BuildOptions } from './types/config';
-export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
+export function buildLoaders({ isDev, paths }: BuildOptions): webpack.RuleSetRule[] {
 
 	//Loader TypeScript
 	//Для React без TypeScript нужно добавлять babel-loader
@@ -39,8 +39,9 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
 
 	//Loader jpg, png ....
 	const fileLoader = {
-		test: /\.(png|jpe?g|gif|css)$/i,
+		test: /\.(png|pdf|jpe?g|gif|css)$/i,
 		type: 'asset/resource',
+		include: paths.src
 	}
 
 	return [
