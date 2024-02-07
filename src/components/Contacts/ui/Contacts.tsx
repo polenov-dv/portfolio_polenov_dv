@@ -46,7 +46,7 @@ export const Contacts = () => {
 							{t('Адрес')}
 						</li>
 						<li className={cls.address_item}>
-							{t('Pоссийcкая федерация')}
+							{t('Российская Федерация')}
 						</li>
 						<li className={cls.address_item}>
 							<a className={cls.address_link} href="tel:+79595243430">
@@ -64,7 +64,7 @@ export const Contacts = () => {
 
 					<div className={cls.social}>
 						<p className={cls.social_title}>
-							{t('Cоцсети')}
+							{t('Соцсети')}
 						</p>
 						<ul className={cls.social_list}>
 							<li className={cls.social_item}>

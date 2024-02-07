@@ -33,16 +33,16 @@ export const AboutMe = () => {
 							<span>{t('Имя')}: </span> {t('Поленов Дмитрий')}
 						</li>
 						<li className={cls.info_item}>
-							<span>{t('Eмейл')}: </span>
+							<span>{t('Эл. почта')}: </span>
 							<a className={cls.address_link} href="mailto:polenovdimaprok@gmail.com">
 								polenovdimaprok@gmail.com
 							</a>
 						</li>
 						<li className={cls.info_item}>
-							<span>{t('Возвраст')}: </span>31
+							<span>{t('Возраст')}: </span>31
 						</li>
 						<li className={cls.info_item}>
-							<span>{t('Локация')}: </span>{t('Pоссийcкая федерация')}
+							<span>{t('Локация')}: </span>{t('Российская Федерация')}
 						</li>
 					</ul>
 					<a href={resume} download="resume_pdv.pdf" className={cls.btn_wrapper}>
