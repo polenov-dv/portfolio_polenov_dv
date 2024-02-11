@@ -28,10 +28,10 @@ npm run start
 ## Example of the interface
 
 ### Russian Dark Theme
-![dark_theme](https://github.com/polenov-dv/portfolio_polenov_dv/assets/126477538/751b211f-2c79-446e-9433-3810e358d571)
+![dark_theme](https://github.com/polenov-dv/portfolio_polenov_dv/assets/126477538/570baf84-9766-46b7-9fe2-c42459d2d8f8)
 
 ### English Light Theme
-![light_theme](https://github.com/polenov-dv/portfolio_polenov_dv/assets/126477538/0273acb5-3d01-434e-9ecb-4b6f94be3cfd)
+![light_theme](https://github.com/polenov-dv/portfolio_polenov_dv/assets/126477538/005ca7fd-549c-4804-b177-a88fecc9dbb7)
 
 ### Mobile version
-![mobile_version](https://github.com/polenov-dv/portfolio_polenov_dv/assets/126477538/161b1f36-5fe3-4757-8d1b-af42c3e78c75)
+![mobile_version](https://github.com/polenov-dv/portfolio_polenov_dv/assets/126477538/5309c265-657c-43bf-8524-75923248cf2a)
