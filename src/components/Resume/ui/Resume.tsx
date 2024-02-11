@@ -14,11 +14,14 @@ export const Resume = () => {
       <p className={cls.text}>{t("Опыт работы")}</p>
 
       <div className={cls.experience}>
-        <span className={cls.time_work}>2022 - 2023</span>
-        <p className={cls.position_work}>{t("Инженер-программист")}</p>
+        <span className={cls.time_work}>2022 - 2024</span>
+        <p className={cls.position_work}>{t("Фронтенд-разработчик")}</p>
         <p className={cls.place_work}>{t("Фриланс")}</p>
         <ul className={cls.exp_list}>
           <li>{t("Функциональные обязанности")}:</li>
+          <li>{t("разработка одностраничных приложений")};</li>
+          <li>{t("написание React-компонентов")};</li>
+          <li>{t("адаптивная вёрстка многостраничного сайта")};</li>
           <li>{t("создание сервисов под ОС Linux на С++")};</li>
           <li>{t("документирование разработанных программных продуктов")}.</li>
         </ul>
