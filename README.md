@@ -1,4 +1,4 @@
-# portfolio_polenov_dv
+![dark_theme](https://github.com/polenov-dv/portfolio_polenov_dv/assets/126477538/d7d3d02d-c78a-49e8-847b-4a461d632e99)# portfolio_polenov_dv
 
 ## Github Page
 
@@ -28,11 +28,10 @@ npm run start
 ## Example of the interface
 
 ### Russian Dark Theme
-![dark_theme](https://github.com/polenov-dv/portfolio_polenov_dv/assets/126477538/386603ae-d39d-463f-a6a2-c6b72100fee9)
+![dark_theme](https://github.com/polenov-dv/portfolio_polenov_dv/assets/126477538/c8b00dd1-a6f5-4bb9-b2a9-1a853e017ad6)
 
 ### English Light Theme
-![light_theme](https://github.com/polenov-dv/portfolio_polenov_dv/assets/126477538/15ede375-a37f-4df0-97d7-033cdc95a269)
+![light_theme](https://github.com/polenov-dv/portfolio_polenov_dv/assets/126477538/bca8bc8b-9354-47bf-ba21-ce0336e7088a)
 
 ### Mobile version
-![mobile_version](https://github.com/polenov-dv/portfolio_polenov_dv/assets/126477538/59dc701f-63b3-4cb9-85b4-55320866517b)
-
+![mobile_version](https://github.com/polenov-dv/portfolio_polenov_dv/assets/126477538/4f1fe36d-16f4-4b2c-82e2-b3bb84d57e57)
