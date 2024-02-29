@@ -28,7 +28,7 @@
   "Здравствуйте": "Hello",
   "Меня зовут": "My name is",
   "Владимирович": "Vladimirovich",
-	"Более шести лет я активно занимаюсь работой в области информационных технологий": "I have been actively working in the field of information technology for more than six years",
+  "Более шести лет я активно занимаюсь работой в области информационных технологий": "I have been actively working in the field of information technology for more than six years",
   "Участвовал в разработке программного обеспечения для микроконтроллеров применяемых на железнодорожных станциях, написанием сервисных программ на языке С++ под операционную систему Linux и созданием SPA приложений с использованием React": "Participated in the development of software for microcontrollers used at railway stations, writing service programs in C++ for the Linux operating system and creating SPA applications using React",
   "Моя цель - создавать пользовательские интерфейсы, которые были бы не только красивыми, но и удобными для пользователя. Я следую передовым технологиям и методологиям разработки, чтобы обеспечить наилучшее качество и эффективность моих проектов": "My goal is to create user interfaces that are not only beautiful but also user-friendly. I follow advanced technologies and development methodologies to ensure the best quality and efficiency of my projects",
   "Имя": "Name",
@@ -56,7 +56,10 @@
   "Проект интернет-магазина детских игрушек. Реализованы следующие функции: постраничная навигация, взаимодействие с сервером, регистрация/авторизация, работа с БД товаров, сортировка/фильтрация/поиск товаров, создание комментариев, корзина товаров, пагинация... Детальнее на странице <О сайте> проекта.": "The project of an online store for children's toys. The following functions are implemented: page-by-page navigation, interaction with the server, registration/authorization, working with the product database, sorting/filtering/searching for products, creating comments, shopping cart, pagination... For more information, see the <About site> page of the project.",
   "Проект сайта-портфолио фронтенд-разработчика": "Website project-portfolio of a frontend developer",
   "Фронтенд-разработчик": "Frontend Developer",
-  "разработка одностраничных приложений": "development of single-page applications",
-  "написание React-компонентов": "writing React components",
-  "адаптивная вёрстка многостраничного сайта": "adaptive layout of a multi-page website"
+  "разработка и поддержка одностраничных приложений на React, обеспечивая высокую производительность и отзывчивость": "development and support of single-page applications on React, providing high performance and responsiveness",
+  "использование React Hooks и контекста для управления состоянием компонентов": "using React Hooks and context to manage the state of components",
+  "интеграция с внешними API для получения и отправки данных с использованием библиотеки Axios": "integration with external APIs for receiving and sending data using the Axios library",
+  "работа с Redux для эффективного управления глобальным состоянием приложения": "working with Redux to effectively manage the global state of the application",
+  "оптимизация приложений для различных устройств и браузеров, обеспечивая кроссбраузерную совместимость": "optimize applications for different devices and browsers, ensuring cross-browser compatibility",
+  "тестирование компонентов с использованием Jest для обеспечения стабильности кода": "testing components using Jest to ensure code stability"
 }
